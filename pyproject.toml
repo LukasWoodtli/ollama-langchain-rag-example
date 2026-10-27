@@ -1,0 +1,18 @@
+[project]
+name = "ollama-langchani-rag-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "chatollama>=0.2.13",
+    "langchain-classic>=1.0.8",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.4.8",
+    "langchain-ollama>=1.1.0",
+    "langchain-text-splitters>=1.1.2",
+    "ollama==0.6.2",
+    "unstructured",
+    "unstructured[all-docs]",
+    "chromadb"
+]
